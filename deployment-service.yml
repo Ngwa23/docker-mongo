@@ -9,7 +9,7 @@ spec:
       app: springapp
   template:
     metadata:
-      name: springapppod
+      name: springapp
       labels:
         app: springapp
     spec:
@@ -32,7 +32,7 @@ metadata:
   name: springsvc
 spec:
   selector:
-    app: springboot
+    app: springapp
   ports:
   - port: 80
     targetPort: 8080
